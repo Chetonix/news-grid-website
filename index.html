@@ -14,36 +14,46 @@
     <title>NewsGrid | Latest News</title>
   </head>
   <body>
-    <header class="container">
-      <nav class="navbar">
-        <img src="./img/logo.png" class="logo" />
-        <div class="right-nav">
-          <div class="social">
-            <a href="http://facebook.com" target="_blank"
-              ><i class="fab fa-facebook fa-2x"></i
-            ></a>
-            <a href="http://twitter.com" target="_blank"
-              ><i class="fab fa-twitter fa-2x"></i
-            ></a>
-            <a href="http://instagram.com" target="_blank"
-              ><i class="fab fa-instagram fa-2x"></i
-            ></a>
-            <a href="http://youtube.com" target="_blank"
-              ><i class="fab fa-youtube fa-2x"></i
-            ></a>
-          </div>
-          <div class="nav-links">
-            <ul>
-              <li><a href="index.html" class="current">Home</a></li>
-              <li><a href="about.html">About</a></li>
-            </ul>
-          </div>
+    <header id="navbar">
+      <nav class="container">
+        <img src="img/logo.png" alt="NewsGrid" class="logo" />
+        <div class="social">
+          <a href="http://facebook.com" target="_blank"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href="http://twitter.com" target="_blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="http://instagram.com" target="_blank"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a href="http://youtube.com" target="_blank"
+            ><i class="fab fa-youtube fa-2x"></i
+          ></a>
         </div>
+        <ul>
+          <li><a class="current" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
       </nav>
     </header>
 
     <section id="showcase">
-      <article class="container"></article>
+      <article class="container">
+        <div class="showcase-container">
+          <div class="showcase-content">
+            <div class="category category-sports">Sports</div>
+            <h1>Some Sports Article</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+              rerum officia quibusdam mollitia deserunt animi soluta laudantium.
+              Quam sapiente a dolorum magnam necessitatibus quis tempore facere
+              totam. Dolor, sequi distinctio!
+            </p>
+            <button class="btn btn-red">Read More</button>
+          </div>
+        </div>
+      </article>
     </section>
   </body>
 </html>
