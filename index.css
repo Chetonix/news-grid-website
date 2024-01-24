@@ -138,3 +138,72 @@ a {
 .btn-red {
   background: #c72727;
 }
+
+/* EDITOR SECTION */
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+#editor h2 {
+  font-family: "Staatliches", cursive;
+  margin-bottom: 0.55rem;
+  line-height: 1.3;
+}
+
+#editor .editor-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+}
+
+#editor .editor-container > :first-child {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  grid-column: 1 / span 2;
+}
+
+#editor .editor-container > :last-child {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  grid-column: 2 / span 2;
+}
+
+img {
+  width: 100%;
+}
+
+.category-ent {
+  background: #a66bbe;
+}
+
+.category-tech {
+  background: #009cff;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-primary {
+  background: #c72727;
+  color: #fff;
+}
+
+.bg-dark h3 a {
+  color: #fff;
+}
+
+.bg-primary h3 a {
+  color: #fff;
+}
