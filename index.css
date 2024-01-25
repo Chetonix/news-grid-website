@@ -282,3 +282,33 @@ h6 {
   text-align: center;
   font-size: 0.75rem;
 }
+
+/* --------- ABOUT PAGE ----------- */
+
+#about .about-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  grid-gap: 1.5rem;
+}
+
+#about .left-content {
+  background: #fff;
+  padding: 1rem;
+  grid-row: 1 / span 3;
+}
+
+.l-heading {
+  font-size: 3rem;
+}
+
+#about .right-content {
+  padding: 1rem;
+  margin: 0;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
