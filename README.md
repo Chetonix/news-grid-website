@@ -1,3 +1,3 @@
 # news-grid-website
 
-\***\* Under Contruction \*\***
+Link to the website: https://chetonix.github.io/news-grid-website/
