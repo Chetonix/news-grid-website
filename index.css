@@ -19,6 +19,10 @@ body {
   background: #f3f3f3;
 }
 
+.btn:hover {
+  opacity: 0.9;
+}
+
 /* HEADER */
 
 #navbar {
@@ -74,6 +78,11 @@ a {
 #navbar ul li a {
   padding: 0.75rem;
   font-weight: bold;
+}
+
+#navbar ul li a:hover {
+  background: #f3f3f3;
+  color: #333;
 }
 
 /* Hero Section */
@@ -311,4 +320,39 @@ h6 {
   display: block;
   width: 100%;
   text-align: center;
+}
+
+/* ------ABOUT PAGE------ */
+
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  grid-gap: 1.5rem;
+}
+
+.page-container > :first-child {
+  grid-row: 1 / span 3;
+}
+
+aside .card {
+  background: #fff;
+  padding: 1rem;
+}
+
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+.bg-secondary {
+  background: #f99500;
+  color: #fff;
+}
+
+.list li a:hover {
+  color: #c72727 !important;
 }
